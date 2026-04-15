@@ -14,7 +14,7 @@ function App() {
   };
 
   useEffect(() => {
-    if (c1 > c2 && c1 > c3) {
+    if (c1 > c2 && c5 > c3) {
       setLeader('Ramesh');
     } else if (c2 > c1 && c2 > c3) {
       setLeader('Sharath');
