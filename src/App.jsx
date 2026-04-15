@@ -42,7 +42,7 @@ function App() {
           count={c1}
           onVote={() => setC1(c1 + 1)}
           percentage={getPercentage(c1)}
-          isLeader={leader === 'Ramesh'}
+          isLeader={leader === 'Suresh'}
         />
         <VoteCard
           name="Sharath"
